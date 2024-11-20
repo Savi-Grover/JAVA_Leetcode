@@ -18,6 +18,7 @@ public class theory_1objects {
 	System.out.println("Bulb is OFF");
 			}
 
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 

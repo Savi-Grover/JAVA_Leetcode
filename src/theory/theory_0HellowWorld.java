@@ -27,7 +27,7 @@ public class theory_0HellowWorld {
 		//static - keyword which means this method is associated with class, not obj
 		//void - return type if function return null-it is void
 		//main - method from where execution of this java class begins
-		System.out.println("Hello, World!");
+		System.out.println("Hello, World!"); 
 		
 	}
 
