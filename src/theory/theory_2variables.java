@@ -27,6 +27,21 @@ public class theory_2variables {
 		*/
 		
 		
+		
+		//constants
+		/*
+		Constants are defined by using static modifier in combination with the final modifier.
+		The final modifier indicates that the value of this field cannot be changed. The static modifier
+		indicates that there will be only one instance of the variable and is a class variable.
+		For example, the following variable declaration defines a constant named PI, whose value
+		approximates pi.
+		
+		static final double PI = 3.141592653589793;
+		
+		Another example, in this we had created a constant of string type.
+		static final String text = "Hello, World!";
+		
+		*/
 	}
 
 }
