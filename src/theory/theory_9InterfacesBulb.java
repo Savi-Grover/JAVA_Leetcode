@@ -5,7 +5,8 @@ case switch is the interface between you and the bulb. You press the button turn
 start glowing.
 
 
-interfsce provides skelton of a class. to use an interfcae , we need to inplmenet to a class, we can override methods 7 veriables of interfcae
+interfsce has  skelton of a class with just invoked methods. no definition of nethod
+to use an interfcae , we need to inplmenet to a class, we can override methods 7 veriables of interfcae
  */
 public interface theory_9InterfacesBulb {
 	public void turnOn();
