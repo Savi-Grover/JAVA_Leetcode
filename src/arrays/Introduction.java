@@ -16,7 +16,7 @@ public class Introduction {
 		int[] arr = new int[10];  // [] is called subscript operator
 		for (int i = 0; i < 10; i++)
 		{
-		arr[i] = i;
+		arr[i] = i;                                            //arr[i[=value of array element at index i
 		}
 		printArray(arr,10);
 		}
