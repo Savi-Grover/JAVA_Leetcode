@@ -28,10 +28,33 @@ public class BuyAndSellStock {
 		// TODO Auto-generated method stub
 		int[] prices= {7,1,5,3,6,4};
 		int n=prices.length;
-		int res=maxProfit(prices);
-		System.out.println("maximum profit out selling stock is :"  +res);
+		
+		//first approach
+		//int res=maxProfit(prices);
+		//System.out.println("maximum profit out selling stock is :"  +res);
+		
+		//second appraoch- traverse one by one and accumilita  profit 
+		// we just need to capture minium of all array to find buy price
+		//assuming minSoFar= prices[0]
+		int res1=maxProfit1(prices);
+		System.out.println("maximum profit out selling stock is :"  +res1);
 	}
 	
+	private static int maxProfit1(int[] prices) {
+		int minSoFar= prices [0];
+		int n = prices.length;
+		int res=0;
+		
+		//sell loop
+		for ( int i=1 ; i<n ; i++) {
+			minSoFar=Math.min(minSoFar, prices[i]);
+			
+			//res or profit = price- minisoFar
+			res=Math.max(res, prices[i]-minSoFar);
+		}
+		return res;
+	}
+
 	public static int maxProfit(int[] prices) {
         int n = prices.length;
         int res = 0;
