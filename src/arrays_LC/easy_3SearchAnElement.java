@@ -34,7 +34,7 @@ public class easy_3SearchAnElement {
 		int n= arr.length;
 		for(int i=0;i<n;i++) {
 			if(arr[i]==k) {
-				System.err.println("element found at: " +i);
+				System.out.println("element found at: " +i);
 				return i;
 			}
 		}
