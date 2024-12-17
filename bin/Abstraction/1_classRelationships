@@ -1,4 +1,4 @@
-Relationship
+Relationship amoung classes
 These are the various relationships that exist between two classes:
 
 1. Dependency: Objects of one class use objects of another class temporarily. When a class creates

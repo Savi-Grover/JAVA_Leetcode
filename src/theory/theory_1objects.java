@@ -4,10 +4,10 @@ package theory;
 
 public class theory_1objects {
 	
-	//data or variable or states
+	//data or variable or states or properties
 	static boolean isOn=false;
 			
-    //function or beviour
+    //function or behaviour
 	public static void turnOn() {
 	isOn = true;
 	System.out.println("Bulb is ON");

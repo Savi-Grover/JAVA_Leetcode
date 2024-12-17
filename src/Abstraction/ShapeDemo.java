@@ -11,6 +11,8 @@ public static void main(String[] args) {
 	
 	AbstractClassShape rectangle = new rectangle_child(width, length);
 	
+	//abstractclass nameOfObj= new ChildClassOFabstractClass();
+	
 	System.out.println("Rectangle width: " + width + " and length: " + length
 	+ " Area: " + rectangle.area()
 	+ " Perimeter: " + rectangle.perimeter());
