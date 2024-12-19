@@ -1,4 +1,7 @@
 package others_med;
+
+import java.util.Scanner;
+
 /*
  * Given a square matrix, calculate the absolute difference between the sums of its diagonals.
 
@@ -60,20 +63,25 @@ public class MatrixDiagonals {
         return Math.abs(d1 - d2);
     }
 
-	public static void main(String[] args) 
-	{
-	    int n = 3;
-	      
-	    int arr[][] =
-	    {
-	        {11, 2, 4},
-	        {4 , 5, 6},
-	        {10, 8, -12}
-	    };
-	  
-	    System.out.print(difference(arr, n));
-	    
-	}
-		
+    public static void main(String[] args) 
+    {
+        
+        Scanner sc= new Scanner(System.in);
+        int n= sc.nextInt();
+         int[][] arr= new int[n][n];
+         
+        //System.out.println("Enter matrix elements:");
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                arr[i][j] = sc.nextInt();
+            }
+        }
+       
+       int ans=difference(arr, n);
+       System.out.println(ans);
+        sc.close();
+        
+    }
+       
 
 }
